@@ -1,0 +1,17 @@
+#body{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    border: 5px solid black;
+}
+
+#body-left {
+    border: 10px solid blue;
+    flex-grow: 1;
+}
+
+#body-right {
+    border: 10px solid red;
+    flex-grow: 2;
+}
