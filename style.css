@@ -1,7 +1,11 @@
-#body{
+body {
+    background: black;
+}
+
+#content {
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 50vw;
     height: 100vh;
     border: 5px solid black;
 }
@@ -9,9 +13,11 @@
 #body-left {
     border: 10px solid blue;
     flex-grow: 1;
+    background: white;
 }
 
 #body-right {
     border: 10px solid red;
     flex-grow: 2;
+    background: white;
 }
