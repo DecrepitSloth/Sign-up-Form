@@ -12,12 +12,12 @@ body {
 }
 
 #content-left {
-    flex-grow: 2;
+    flex-grow: 1;
     background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
 }
 
 #content-right {
-    flex-grow: 3;
+    flex-grow: 2;
     background: white;
 }
