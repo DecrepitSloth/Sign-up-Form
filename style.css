@@ -10,13 +10,13 @@ body {
     border: 5px solid black;
 }
 
-#body-left {
+#content-left {
     border: 10px solid blue;
     flex-grow: 1;
     background: white;
 }
 
-#body-right {
+#content-right {
     border: 10px solid red;
     flex-grow: 2;
     background: white;
