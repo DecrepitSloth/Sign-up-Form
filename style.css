@@ -28,8 +28,11 @@ body {
 
 .banner {
     color: white;
-    align-self: center;
-    margin-top: 16em;
+    margin-top: 13rem;
+    font-size: 70px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    text-align: center;
 }
 
 .image-footer {
