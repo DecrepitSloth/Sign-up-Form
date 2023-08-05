@@ -29,13 +29,13 @@ body {
 .banner {
     color: white;
     align-self: center;
-    padding-top: 16em;
+    margin-top: 16em;
 }
 
 .image-footer {
     color: white;
     align-self: center;
-    padding-bottom: 6px;
+    margin-bottom: 6px;
 }
 
 .image-footer a {
