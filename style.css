@@ -92,16 +92,19 @@ body {
     justify-content: center;
 }
 
-.body-name {
-    
+.body-name form{
+    display: flex;
+    flex-direction: row;
 }
 
-.body-contact-info {
-   
+.body-contact-info form{
+    display: flex;
+    flex-direction: row;
 }
 
-.body-password {
-    
+.body-password form {
+    display: flex;
+    flex-direction: row;
 }
 
 #content-footer {
