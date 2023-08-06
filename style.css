@@ -77,6 +77,33 @@ body {
     height: 30%;
 }
 
+#content-body > * {
+    border: 1px solid black; 
+    height: 25%;
+    margin-left: 50px;
+}
+
+.body-text {
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(61, 59, 59);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body-name {
+    
+}
+
+.body-contact-info {
+   
+}
+
+.body-password {
+    
+}
+
 #content-footer {
     height: 30%;
 }
