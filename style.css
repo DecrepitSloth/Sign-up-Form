@@ -28,7 +28,7 @@ body {
 
 .banner {
     color: white;
-    margin-top: 13rem;
+    margin-top: 258px;
     font-size: 90px;
     background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
@@ -36,7 +36,6 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 5px;
-    
 }
 
 .banner img {
@@ -51,4 +50,21 @@ body {
 
 .image-footer a {
     color: white;
+}
+
+#content-right > * {
+    border: 2px solid black;
+}
+
+#content-header {
+    height: 40%;
+    font-weight: bold;
+}
+
+#content-body {
+    height: 30%;
+}
+
+#content-footer {
+    height: 30%;
 }
