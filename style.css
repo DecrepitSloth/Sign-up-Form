@@ -74,11 +74,11 @@ body {
 }
 
 #content-body {
-    height: 30%;
+    height: 25%;
 }
 
 #content-body > * {
-    border: 1px solid black; 
+    border: 1px solid black;
     height: 25%;
     margin-left: 50px;
 }
@@ -105,5 +105,5 @@ body {
 }
 
 #content-footer {
-    height: 30%;
+    height: 35%;
 }
