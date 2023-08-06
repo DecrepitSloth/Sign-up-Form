@@ -29,10 +29,18 @@ body {
 .banner {
     color: white;
     margin-top: 13rem;
-    font-size: 70px;
+    font-size: 90px;
     background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    
+}
+
+.banner img {
+    height: 120px;
 }
 
 .image-footer {
