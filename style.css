@@ -57,8 +57,19 @@ body {
 }
 
 #content-header {
+    background-color: rgba(249, 250, 251, 1);
     height: 40%;
     font-weight: bold;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#content-header > div {
+    width: 40rem;
+    height: 7rem;
+    margin-left: 2rem;
 }
 
 #content-body {
