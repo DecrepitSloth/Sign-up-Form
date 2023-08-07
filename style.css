@@ -84,6 +84,13 @@ body {
     box-sizing: border-box;
 }
 
+input {
+    height: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
 .body-text {
     font-weight: bold;
     font-size: x-large;
