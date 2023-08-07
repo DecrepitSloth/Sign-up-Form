@@ -81,6 +81,7 @@ body {
     border: 1px solid black;
     height: 25%;
     margin-left: 50px;
+    box-sizing: border-box;
 }
 
 .body-text {
