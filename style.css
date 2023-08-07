@@ -80,7 +80,7 @@ body {
 #content-body > * {
     border: 1px solid black;
     height: 25%;
-    margin-left: 50px;
+    margin: 0px 150px 0px 50px;
     box-sizing: border-box;
 }
 
@@ -91,6 +91,12 @@ input {
     flex-direction: column;
 }
 
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .body-text {
     font-weight: bold;
     font-size: x-large;
@@ -98,21 +104,6 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.body-name form{
-    display: flex;
-    flex-direction: row;
-}
-
-.body-contact-info form{
-    display: flex;
-    flex-direction: row;
-}
-
-.body-password form {
-    display: flex;
-    flex-direction: row;
 }
 
 #content-footer {
