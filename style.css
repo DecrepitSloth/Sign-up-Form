@@ -28,7 +28,7 @@ body {
 
 .banner {
     color: white;
-    margin-top: 258px;
+    margin-top: 212px;
     font-size: 90px;
     background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
@@ -53,13 +53,13 @@ body {
 }
 
 #content-right > * {
-    border: 2px solid black;
+    
     min-width: 42rem;
 }
 
 #content-header {
     background-color: rgba(249, 250, 251, 1);
-    height: 40%;
+    height: 35%;
     font-weight: bold;
     font-size: x-large;
     display: flex;
@@ -74,16 +74,16 @@ body {
 }
 
 #content-body {
-    height: 25%;
+    height: 30%;
 }
 
 #content-body > * {
-    border: 1px solid black;
+    border: 1px solid black; 
     height: 25%;
     margin-left: 2rem; 
     box-sizing: border-box;
     background-color: rgba(255, 255, 255, 1);
-    width: 40rem; /*needs right padding for when vw becomes smaller */
+    width: 40rem;
 }
 
 input {
@@ -97,6 +97,7 @@ form {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-right: 2em;
 }
 
 .body-text {
@@ -110,4 +111,5 @@ form {
 
 #content-footer {
     height: 35%;
+    background-color: rgba(249, 250, 251, 1);
 }
