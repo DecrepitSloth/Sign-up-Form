@@ -102,7 +102,7 @@ input:focus {
     box-shadow: 3px 3px 4px rgb(194, 192, 192);
 }
 
-input:valid {
+input:not(:placeholder-shown):valid {
     outline: 1px solid green;
 }
 
