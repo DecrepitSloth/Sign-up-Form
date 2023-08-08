@@ -79,7 +79,6 @@ body {
 }
 
 #content-body > * {
-    border: 1px solid black; 
     height: 25%;
     margin-left: 2rem; 
     box-sizing: border-box;
@@ -95,6 +94,7 @@ input {
     border: 1px solid #E5E7EB;
     background: #fffefe;
     border-radius: 5px;
+    margin-top: 2px;
 }
 
 form {
@@ -102,6 +102,7 @@ form {
     flex-direction: row;
     justify-content: space-between;
     padding-right: 2em;
+    font-size: 15px;
 }
 
 .body-text {
