@@ -93,8 +93,13 @@ input {
     flex-direction: column;
     border: 1px solid #E5E7EB;
     background: #fffefe;
-    border-radius: 5px;
+    border-radius: 3px;
     margin-top: 2px;
+}
+
+input:focus {
+    outline: 1px solid blue;
+    box-shadow: 3px 3px 4px rgb(194, 192, 192);
 }
 
 form {
