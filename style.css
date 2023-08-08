@@ -53,8 +53,8 @@ body {
 }
 
 #content-right > * {
-    
     min-width: 42rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #content-header {
@@ -87,10 +87,13 @@ body {
 }
 
 input {
-    height: 20px;
-    width: 250px;
+    height: 22px;
+    width: 220px;
     display: flex;
     flex-direction: column;
+    border: 1px solid #E5E7EB;
+    background: #fffefe;
+    border-radius: 5px;
 }
 
 form {
