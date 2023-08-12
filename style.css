@@ -134,3 +134,8 @@ form {
     height: 35%;
     background-color: rgba(249, 250, 251, 1);
 }
+
+.submission {
+    margin-left: 2em;
+    margin-top: 2em;
+}
