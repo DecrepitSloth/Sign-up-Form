@@ -102,14 +102,15 @@ body {
 }
 
 input {
-    height: 26px;
-    width: 240px;
+    height: 25px;
+    width: 235px;
     display: flex;
     flex-direction: column;
     border: 1px solid #E5E7EB;
     background: #fffefe;
     border-radius: 3px;
     margin-top: 2px;
+    padding-right: 16px
 }
 
 input:focus {
