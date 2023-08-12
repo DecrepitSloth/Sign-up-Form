@@ -35,15 +35,20 @@ body {
 
 .banner {
     color: white;
-    margin-top: 212px;
+    margin-top: 204px;
     font-size: 90px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     text-align: center;
     display: flex;
     justify-content: center;
-    padding-top: 5px;
     font-family: "Norse-Bold";
+    padding: 10px 14px 10px 10px;
+}
+
+.banner p {
+    margin-block-start: 12px;
+    margin-block-end: 0;
 }
 
 .banner img {
