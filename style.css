@@ -68,9 +68,9 @@ body {
 }
 
 #content-header > div {
-    width: 40rem;
+    width: 39.5rem;
     height: 6.1rem;
-    margin-left: 2rem;
+    padding-left: 2.5rem;
     padding-top: 10px;
 }
 
@@ -82,10 +82,10 @@ body {
 
 #content-body > * {
     height: 25%;
-    margin-left: 2rem; 
+    margin-left: 2.5rem; 
     box-sizing: border-box;
     background-color: rgba(255, 255, 255, 1);
-    width: 40rem;
+    width: 39.5rem;
 }
 
 input {
@@ -136,7 +136,7 @@ form {
 }
 
 .submission {
-    padding-left: 2em;
+    padding-left: 2.5em;
     padding-top: 1.5em;
 }
 
