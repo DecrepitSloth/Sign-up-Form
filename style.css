@@ -38,12 +38,12 @@ body {
     margin-top: 204px;
     font-size: 90px;
     background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
+    width: 98%;
     text-align: center;
     display: flex;
     justify-content: center;
     font-family: "Norse-Bold";
-    padding: 10px 14px 10px 10px;
+    padding: 10px 0px 10px 10px;
 }
 
 .banner p {
