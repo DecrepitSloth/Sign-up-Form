@@ -19,7 +19,7 @@ body {
         width: auto;
         align-items: center;}
 
-    #content-right {width: 44.5rem; height: 70vh;}
+    #content-right {width: 44.5rem;}
 
     #content-left {width: 44.5rem; height: 30vh;}
 
@@ -50,7 +50,7 @@ body {
 }
 
 #content-right {
-    background: white;
+    background-color: rgba(249, 250, 251, 1);;
 }
 
 @font-face {
@@ -97,7 +97,7 @@ body {
 
 #content-header {
     background-color: rgba(249, 250, 251, 1);
-    height: 35.5%;
+    height: 344px;
     font-weight: bold;
     font-size: 22px;
     display: flex;
@@ -113,13 +113,12 @@ body {
 }
 
 #content-body {
-    height: 30%;
     margin-bottom: 10px;
     box-shadow: 0px 3px 8px rgb(199, 199, 199);
 }
 
 #content-body > * {
-    height: 66px;
+    height: 62px;
     margin-left: 2.5rem; 
     box-sizing: border-box;
     background-color: rgba(255, 255, 255, 1);
@@ -170,7 +169,8 @@ form {
 }
 
 #content-footer {
-    height: 34.5%;
+    height: 326px;
+    min-height: 200px;
     background-color: rgba(249, 250, 251, 1);
 }
 
