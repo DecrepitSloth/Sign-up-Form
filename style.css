@@ -167,3 +167,8 @@ form {
 .submission p {
     padding-top: 18px;
 }
+
+.submission p a {
+    font-weight: bold;
+    color: #596D48;
+}
