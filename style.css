@@ -16,7 +16,7 @@ body {
     background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    width: 38%;
+    width: 37%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -24,7 +24,7 @@ body {
 
 #content-right {
     background: white;
-    width: 62%;
+    width: 63%;
 }
 
 .banner {
