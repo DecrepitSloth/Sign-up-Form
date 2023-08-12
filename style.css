@@ -20,11 +20,17 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: ur
 }
 
 #content-right {
     background: white;
     width: 63%;
+}
+
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(Norse-Bold\ \(1\).otf);
 }
 
 .banner {
@@ -37,6 +43,7 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 5px;
+    font-family: "Norse-Bold";
 }
 
 .banner img {
