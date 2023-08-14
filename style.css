@@ -44,7 +44,7 @@ body {
     #content-footer {padding-bottom: 19px;}
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-device-width: 800px) {
     #content-footer {padding-bottom: 1200px;}
 }
 
