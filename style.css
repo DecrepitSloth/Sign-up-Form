@@ -33,7 +33,7 @@ body {
 
     #content-right {width: 62.5%}
 
-    #content-left {width: 37.5%;}
+    #content-left {width: 37.5%; height: 950px;}
 
     .banner {
         margin-top: 204px;
@@ -50,7 +50,7 @@ body {
 }
 
 #content-right {
-    background-color: rgba(249, 250, 251, 1);;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 @font-face {
@@ -113,7 +113,7 @@ body {
 }
 
 #content-body {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     box-shadow: 0px 3px 8px rgb(199, 199, 199);
 }
 
@@ -172,6 +172,7 @@ form {
     height: 326px;
     min-height: 200px;
     background-color: rgba(249, 250, 251, 1);
+    padding-bottom: 19px;
 }
 
 .submission {
