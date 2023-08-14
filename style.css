@@ -31,7 +31,7 @@ body {
 @media screen and (min-width: 1600px) {
     #content {width: 69vw;}
 
-    #content-right {width: 62.5%}
+    #content-right {width: 62.5%; height: 950px;}
 
     #content-left {width: 37.5%; height: 950px;}
 
