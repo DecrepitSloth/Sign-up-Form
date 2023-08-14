@@ -26,6 +26,8 @@ body {
     .banner {
         margin-top: 60px;
     }
+
+    #content-footer {padding-bottom: 19px;}
 }
 
 @media screen and (min-width: 1600px) {
@@ -38,6 +40,12 @@ body {
     .banner {
         margin-top: 204px;
     }
+
+    #content-footer {padding-bottom: 19px;}
+}
+
+@media screen and (max-width: 800px) {
+    #content-footer {padding-bottom: 1200px;}
 }
 
 #content-left {
@@ -172,7 +180,6 @@ form {
     height: 326px;
     min-height: 200px;
     background-color: rgba(249, 250, 251, 1);
-    padding-bottom: 19px;
 }
 
 .submission {
