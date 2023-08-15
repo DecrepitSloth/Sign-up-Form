@@ -45,7 +45,7 @@ body {
 }
 
 @media screen and (max-device-width: 1024px) {
-    #content-footer {padding-bottom: 600px;}
+    #content-footer {padding-bottom: 800px;}
 }
 
 #content-left {
