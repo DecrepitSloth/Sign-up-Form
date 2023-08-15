@@ -23,9 +23,7 @@ body {
 
     #content-left {width: 44.5rem; height: 270px;}
 
-    .banner {
-        margin-top: 60px;
-    }
+    .banner {margin-top: 60px;}
 
     #content-footer {padding-bottom: 19px;}
 }
@@ -37,9 +35,7 @@ body {
 
     #content-left {width: 37.5%; height: 950px;}
 
-    .banner {
-        margin-top: 204px;
-    }
+    .banner {margin-top: 204px;}
 
     #content-footer {padding-bottom: 19px;}
 }
