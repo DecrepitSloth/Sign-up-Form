@@ -6,7 +6,7 @@ function match() {
         document.getElementById("password-error").textContent = "";
         conPass.setCustomValidity("");
     } else {
-        document.getElementById("password-error").textContent = "Passwords must match!";
+        document.getElementById("password-error").textContent = "* Passwords do not match";
         conPass.setCustomValidity("Passwords must match!");
     };
 }
