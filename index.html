@@ -54,7 +54,8 @@
                         </div>
                         <div>
                             <label for="confirm-password">Confirm Password</label>
-                            <input type="password" id="confirm-password" name="confirm-password" minlength="6" maxlength="20" placeholder="Must have at least 6 characters">
+                            <input type="password" id="confirm-password" name="confirm-password" onkeyup="match()" minlength="6" maxlength="20" placeholder="Must have at least 6 characters">
+                            <span id="password-error"></span>
                         </div>
                     </form>
                 </div>
